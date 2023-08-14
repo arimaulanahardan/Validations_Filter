@@ -20,7 +20,6 @@ const ButtonPath = () => {
           <div
             className={`transition-transform duration-300 ${isRotated ? "transform rotate-90" : ""
             }`}>
-                
             <AiOutlineArrowLeft size={18} />
           </div>
         </div>

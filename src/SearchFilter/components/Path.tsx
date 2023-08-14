@@ -8,20 +8,21 @@ const ButtonPath = () => {
 
   const handleClick = () => {
     setIsRotated(!isRotated);
-    navigate('/form-validation');
+    navigate("/form-validation");
   };
 
   return (
-    <div className="mt-8 mb-64 mt-8 flex justify-end">
-      <div className="bg-white rounded-md shadow-lg px-2 py-2 text-gray-700 bg-gray-100 rounded-full cursor-pointer hover:bg-gray-200"
-      onClick = {handleClick}>
-        <div
-          className="flex justify-between items-center"
-           >
+    <div className="mt-8 mb-24 mt-8 flex justify-end">
+      <div
+        className="bg-white rounded-md shadow-lg px-2 py-2 text-gray-700 bg-gray-100 rounded-full cursor-pointer hover:bg-gray-200"
+        onClick={handleClick}
+      >
+        <div className="flex justify-between items-center">
           <div
-            className={`transition-transform duration-300 ${isRotated ? "transform rotate-90" : ""
-            }`}>
-                
+            className={`transition-transform duration-300 ${
+              isRotated ? "transform rotate-90" : ""
+            }`}
+          >
             <AiOutlineArrowRight size={18} />
           </div>
         </div>

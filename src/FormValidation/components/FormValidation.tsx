@@ -89,11 +89,9 @@ const FormValidations: React.FC = () => {
     e.preventDefault();
 
     const isNameValid = name.length >= 3 && validateName.test(name);
-    const isUserNameValid =
-      userName.length >= 3 && validateUserName.test(userName);
+    const isUserNameValid = userName.length >= 3 && validateUserName.test(userName);
     const isEmailValid = validateEmail.test(email);
-    const isPasswordValid =
-      password.length >= 8 && validatePassword.test(password);
+    const isPasswordValid = password.length >= 8 && validatePassword.test(password);
     const areRequiredFieldsFilled = name && userName && email && password;
 
     setNameErr(!isNameValid);
@@ -242,7 +240,7 @@ const FormValidations: React.FC = () => {
               )}
               {pwdSpecialCharErr && (
                 <p className="text-red-600 italic mb-2 text-sm">
-                    must contain at least one special character
+                  must contain at least one special character
                 </p>
               )}
             </div>

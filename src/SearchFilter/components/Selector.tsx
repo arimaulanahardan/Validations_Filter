@@ -65,9 +65,7 @@ const Selector: React.FC = () => {
 
   return (
     <div className="w-96 font-medium" ref={selectorRef}>
-      <h1 className="mb-2 text-center text-white text-2xl">
-        Name Countries
-      </h1>
+      <h1 className="mb-2 text-center text-white text-2xl">Name Countries</h1>
       <div
         onClick={() => setOpen(!open)}
         className={`cursor-pointer hover:bg-gray-200 bg-white w-full p-2 flex items-center justify-between rounded ${
@@ -102,7 +100,9 @@ const Selector: React.FC = () => {
             />
           </div>
           {countryNotFound && (
-            <p className="p-2 text-sm text-red-500 text-center italic">Country Not Found</p>
+            <p className="p-2 text-sm text-red-500 text-center italic">
+              Country Not Found
+            </p>
           )}
           <ul>
             {(inputValue ? filteredCountries : originalCountries)
