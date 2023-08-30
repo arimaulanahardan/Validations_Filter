@@ -2,17 +2,23 @@
 
 This repository contains two separate components: `SearchFilter` and `FormValidation`.
 
-## Table of Contents
+### Installation
 
+1. Clone this repository.
+2. go to directory `cd search_filter`
+3. Run `npm install` to install dependencies.
+4. Run `npm run dev` to start the development server.
+5. Open your browser and navigate to the specified URL to see the components in action.
+
+## Table of Contents
+- [Installation](#installation)
 - [SearchFilter](#searchfilter)
   - [Overview](#overview)
   - [Files](#files)
-  - [Installation](#installation)
   - [Usage](#usage)
 - [FormValidation](#formvalidation)
   - [Overview](#overview)
   - [Files](#files)
-  - [Installation](#installation)
   - [Usage](#usage)
 - [Screenshots](#screenshots)
 
@@ -32,14 +38,6 @@ The `SearchFilter` component allows users to select a country from a list. It pr
 - **components/Path.tsx**: Navigation button to navigate to another component.
 - **index.tsx**: Main entry point for the `SearchFilter` component.
 
-### Installation
-
-1. Clone this repository.
-2. go to direcrory `cd search_filter`
-3. Run `npm install` to install dependencies.
-4. Run `npm start` to start the development server.
-5. Open your browser and navigate to the specified URL to see the components in action.
-
 ### Usage
 
 - **SearchFilter**: Allows users to select a country from a dropdown list and search for specific countries.
@@ -57,14 +55,6 @@ The `FormValidation` component provides a form for users to create an account wi
 - **components/Path.tsx**: Navigation button to navigate back to the `SearchFilter` component.
 - **index.tsx**: Main entry point for the `FormValidation` component.
 - **app.tsx**: Main entry point for rendering routes.
-
-### Installation
-
-1. Clone this repository.
-2. go to direcrory `cd search_filter`
-3. Run `npm install` to install dependencies.
-4. Run `npm run dev` to start the development server.
-5. Open your browser and navigate to the specified URL to see the components in action.
 
 ### Usage
 
