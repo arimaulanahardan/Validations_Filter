@@ -35,9 +35,10 @@ The `SearchFilter` component allows users to select a country from a list. It pr
 ### Installation
 
 1. Clone this repository.
-2. Run `npm install` to install dependencies.
-3. Run `npm start` to start the development server.
-4. Open your browser and navigate to the specified URL to see the components in action.
+2. go to direcrory `cd search_filter`
+3. Run `npm install` to install dependencies.
+4. Run `npm start` to start the development server.
+5. Open your browser and navigate to the specified URL to see the components in action.
 
 ### Usage
 
@@ -61,9 +62,9 @@ The `FormValidation` component provides a form for users to create an account wi
 
 1. Clone this repository.
 2. go to direcrory `cd search_filter`
-2. Run `npm install` to install dependencies.
-3. Run `npm run dev` to start the development server.
-4. Open your browser and navigate to the specified URL to see the components in action.
+3. Run `npm install` to install dependencies.
+4. Run `npm run dev` to start the development server.
+5. Open your browser and navigate to the specified URL to see the components in action.
 
 ### Usage
 
